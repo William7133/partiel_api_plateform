@@ -15,3 +15,4 @@ Autant un subscriber doit implémenter une SubscriberInterface, autant une class
 
 Le principe d’authentification JSON Web Tokens est de retourner un token chiffré grâce à une clé secrète (en utilisant l’algorithme HMAC) ou en utilisant des clés de chiffrements de type SHA256 ou ECDSA par exemple.
 Le token comporte directement les information client tel que le username.
+Les sessions peuvent être modifiables, elles sont donc moins sécurisées.
